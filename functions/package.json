@@ -1,6 +1,8 @@
 {
-  "name": "functions",
-  "description": "Cloud Functions for Firebase",
+  "name": "metronome-googleaction",
+  "description": "Play a metronome beat",
+  "version": "0.0.1",
+  "author": "Amin Shah Gilani <amin@gilani.me>",
   "scripts": {
     "lint": "./node_modules/.bin/eslint .",
     "serve": "firebase serve --only functions",
@@ -10,6 +12,7 @@
     "logs": "firebase functions:log"
   },
   "dependencies": {
+    "actions-on-google": "^1.0.0",
     "firebase-admin": "~5.8.1",
     "firebase-functions": "^0.8.1"
   },
