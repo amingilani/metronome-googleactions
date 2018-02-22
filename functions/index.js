@@ -4,9 +4,8 @@ const functions = require('firebase-functions');
 
 
 // a. the action name from the make_name Dialogflow intent
-const NAME_ACTION = 'make_name';
+const NAME_ACTION = 'make_bpm';
 // b. the parameters that are parsed from the make_name intent
-const COLOR_ARGUMENT = 'color';
 const NUMBER_ARGUMENT = 'number';
 
 
